@@ -27,6 +27,12 @@ body {
   height: 100vh;
   width: 100vw;
 }
+.center-section__subtitle {
+  padding-top: 15px;
+  width: 80%;
+  text-align: center;
+  color: white;
+}
 
 .bgA {
   background-color: rgba(0, 0, 0, 0.7);
@@ -39,6 +45,7 @@ body {
 
 .bgC {
   background-color: black;
+  flex-wrap: wrap;
 }
 
 .absolute-box {

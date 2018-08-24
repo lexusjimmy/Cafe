@@ -26,6 +26,12 @@ body{
     width: 100vw;
 
   }
+  &__subtitle{
+    padding-top: 15px;
+    width: 80%;
+    text-align: center;
+    color: white;
+  }
 }
 .bgA{
 
@@ -37,6 +43,7 @@ body{
 }
 .bgC{
   background-color: black;
+  flex-wrap: wrap;
 }
 .absolute-box{
   font-size: 30px;
