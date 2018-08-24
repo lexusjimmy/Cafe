@@ -1,0 +1,95 @@
+
+body, h1, h2, h3, h4, h5, h6{
+  padding: 0;
+  margin: 0;
+}
+body{
+  overflow-x: hidden;
+}
+.container{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100%;
+}
+.center-section{
+  width: 100%;
+  min-height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  &--full-page{
+    @extend .center-section;
+    height: 100vh;
+    width: 100vw;
+
+  }
+}
+.bgA{
+
+  background-color: rgba(0,0,0,.7);
+  background-image: url("img/bgA.jpg");
+}
+.bgB{
+  background-image: url("img/bgB.png");
+}
+.bgC{
+  background-color: black;
+}
+.absolute-box{
+  font-size: 30px;
+  position: relative;
+  width: 90%;
+  height: 220px;
+  color: white;
+  &__main-title{
+    font-size: 1.7em;
+  }
+  &__subtitle{
+
+  }
+  &__source{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+}
+.pic-box{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  &__img{
+    width: 40%;
+    img{
+      width: 100%;
+    }
+  }
+  &__word{
+    width: 60%;
+    padding-top: 5%;
+  }
+}
+.cards{
+  color: white;
+  background-color: black;
+  padding:10px 10px 10px 10px;
+  width: 80%;
+  list-style: none;
+}
+.card{
+  font-size: 14px;
+
+  &__author{
+    margin-bottom: 10px;
+    font-size: 1.3em;
+  }
+  &__body{
+    line-height: 150%;
+  }
+  &__date{
+    text-align: right;
+    font-size: 0.9em;
+  }
+}
